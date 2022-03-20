@@ -11,7 +11,6 @@ object PartialFunctions extends App{
   val aFussyFunction = (x: Int) =>
     if(x == 1) 42
     else if (x == 2) 56
-    else throw Exception
 
   val betterFussyFunction = (x: Int) => x match {
     case 1 => 42
