@@ -37,6 +37,7 @@ project/metals.sbt
 
 dist/*
 target/
+target/*
 lib_managed/
 src_managed/
 project/boot/
